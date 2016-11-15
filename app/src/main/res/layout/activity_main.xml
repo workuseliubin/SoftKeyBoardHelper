@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context="com.example.liubin1.softkeyboardhelper.MainActivity">
+
+    <EditText
+        android:id="@+id/name"
+        android:hint="请输入用户名："
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <EditText
+        android:id="@+id/pas"
+        android:layout_below="@id/name"
+        android:hint="请输入密　码："
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <EditText
+        android:id="@+id/rpas"
+        android:layout_below="@id/pas"
+        android:hint="请再输入密码："
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <Button
+        android:id="@+id/res"
+        android:layout_below="@id/rpas"
+        android:layout_centerHorizontal="true"
+        android:text="注册"
+        android:layout_width="180dp"
+        android:layout_height="50dp" />
+</RelativeLayout>
