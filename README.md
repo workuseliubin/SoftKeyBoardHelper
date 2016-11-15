@@ -10,6 +10,6 @@ Android-app解决键盘遮挡注册或登录按钮
 ### 来一张效果图：
 
 
-<iframe height=800 width=500 src="http://ww3.sinaimg.cn/mw690/005O1u7Gjw1f9sm4k991pg30eb0l77ch.gif">
+![image](http://ww3.sinaimg.cn/mw690/005O1u7Gjw1f9sm4k991pg30eb0l77ch.gif ) 
 
 欢迎fork star
