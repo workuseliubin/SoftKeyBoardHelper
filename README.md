@@ -7,12 +7,15 @@
 ### 先来一张效果图：
 
 
+
 <iframe height=800 width=500 src="http://ww3.sinaimg.cn/mw690/005O1u7Gjw1f9sm4k991pg30eb0l77ch.gif">
 
 
 ### 进入代码实战：
 
+
 -  极为简单的布局：
+
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -56,9 +59,12 @@
 </RelativeLayout>
 
 ```
+
 简单的三个输入框和注册按钮。你只需要关注的是根布局main和注册按钮res
 
+
 *  然后我们来看Activity
+
 
 ```
 public class MainActivity extends AppCompatActivity {
@@ -117,7 +123,9 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
+
 -  OK ，里面的注释已经写的很清楚了。如果还有不明白的可以在下方给我留言。
+
 
 ### 重要的事情说三遍： 
 1、不需要在AndroidManifest.xml中配置键盘属性。
